@@ -6,13 +6,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { ServerStyleDirectiveDirective } from './server-style-directive.directive';
+import { ServerUnlessDirectiveDirective } from './server-unless-directive.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    ServerStyleDirectiveDirective
+    ServerStyleDirectiveDirective,
+    ServerUnlessDirectiveDirective
   ],
   imports: [
     BrowserModule,
